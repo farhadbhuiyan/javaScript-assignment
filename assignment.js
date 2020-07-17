@@ -13,8 +13,7 @@ function feetToMile(feetValue) {
   }
 
 }
-var mile = feetToMile(4342322);
-console.log(mile + " mile");
+
 
 /*===================================================================================
 function for calculate required wood for making given number of chair, table and bed
@@ -31,8 +30,7 @@ function woodCalculator(numOfChair, numOfTable, numOfBed) {
     return errorMessage;
   }
 }
-var woodTotal = woodCalculator(2, 4, 5);
-console.log(woodTotal + " cubic feet wood is required");
+
 
 /*===================================================================================
 function for calculate total number of bricks for  given number of floor
@@ -57,8 +55,7 @@ function brickCalculator(numOfFloor) {
   }
 }
 
-var totalBricks = brickCalculator(21);
-console.log('Required bricks are ' +totalBricks);
+
 
 /*===================================================================================
 function for find a tiny name of friend form a friends name array
@@ -81,6 +78,5 @@ function tinyFriend(friendsName) {
       return errorMessage;
   }
 }
-var tinyFriendName = tinyFriend(['Farhad', 'Sakib', 'Mashrafee', 'Lala', 'Tamim']);
-console.log('Your tiny friend name is ' + tinyFriendName);
+
 
