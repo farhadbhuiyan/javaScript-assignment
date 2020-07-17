@@ -6,7 +6,7 @@ function feetToMile(feetValue) {
   if (typeof feetValue == 'number' && feetValue >= 0) {
 
       var mileValue = feetValue / 5280;
-      return mileValue.toFixed(3);
+      return mileValue.toFixed(2);
   } else {
       var errorMessage = "Please enter a valid value. (N.B: Your value shouldn't be a string or a negative number)";
       return errorMessage;
